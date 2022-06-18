@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav.xml"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="uz.gita.memorygame.ui.screens.SplashScreen"
+        android:label="screen_splash"
+        tools:layout="@layout/screen_splash" >
+        <action
+            android:id="@+id/action_splashScreen_to_levelScreen"
+            app:destination="@id/levelScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/levelScreen"
+        android:name="uz.gita.memorygame.ui.screens.LevelScreen"
+        android:label="screen_level"
+        tools:layout="@layout/screen_level" >
+        <action
+            android:id="@+id/action_levelScreen_to_gameScreen"
+            app:destination="@id/gameScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameScreen"
+        android:name="uz.gita.memorygame.ui.screens.GameScreen"
+        android:label="screen_game"
+        tools:layout="@layout/screen_game" >
+        <argument
+            android:name="arg"
+            app:argType="uz.gita.memorygame.data.models.LevelEnum" />
+    </fragment>
+</navigation>

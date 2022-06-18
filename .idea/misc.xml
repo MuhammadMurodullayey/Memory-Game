@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MemoryGame/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.176" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MemoryGame/app/src/main/res/drawable/bg_dialog.xml" value="0.1505" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MemoryGame/app/src/main/res/drawable/continue_btn.xml" value="0.1505" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MemoryGame/app/src/main/res/drawable/menu_frame.xml" value="0.1505" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MemoryGame/app/src/main/res/drawable/new_game_btn.xml" value="0.1505" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MemoryGame/app/src/main/res/layout/activity_main.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MemoryGame/app/src/main/res/layout/screen_dialog.xml" value="0.264" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MemoryGame/app/src/main/res/layout/screen_game.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MemoryGame/app/src/main/res/layout/screen_level.xml" value="0.177734375" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MemoryGame/app/src/main/res/layout/screen_splash.xml" value="0.178515625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
